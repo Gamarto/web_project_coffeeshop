@@ -116,13 +116,11 @@
   background-size: cover;
   box-sizing: border-box;
 }
-.main__title {
-  padding: 100px 0 0 80px;
-  margin: 0;
-  max-width: 580px;
-}
+
 .recipes__title {
   margin: 0;
+  padding: 100px 0 0 80px;
+  max-width: 580px;
   font-family: "Inter";
   color: #ffffff;
   font-style: normal;
