@@ -70,7 +70,7 @@
   line-height: 72px;
   color: #2f80ed;
 }
-.header__description {
+.description {
   font-family:
     "Noto Serif" Times,
     serif;
@@ -81,7 +81,7 @@
   max-width: 683px;
   margin: 28px 0 0 80px;
 }
-.header_description_text {
+.header_description {
   margin: 0;
 }
 .header__image {
