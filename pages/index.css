@@ -70,7 +70,7 @@
   line-height: 72px;
   color: #2f80ed;
 }
-.header_description {
+.header__description {
   font-family:
     "Noto Serif" Times,
     serif;
@@ -170,7 +170,7 @@
 .video-caption p {
   margin: 0;
 }
-.iframe__video {
+.recipes__iframe {
   border: 0;
   width: 480px;
   height: 273px;
