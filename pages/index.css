@@ -99,7 +99,6 @@
   color: #838383;
   margin: auto 80px 40px 80px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 .header__footer-list {
