@@ -99,14 +99,19 @@
   color: #838383;
   margin: auto 80px 40px 80px;
   display: flex;
-  align-items: flex-end;
+  flex-direction: row;
   justify-content: space-between;
 }
-.footer__list_item {
+.header__footer-list {
+  display: flex;
+  flex-direction: column;
+}
+.header__paragraph {
   margin: 0;
 }
-.footer__list_item_adress {
-  margin: 0;
+.header__paragraph-adress {
+  display: flex;
+  align-items: flex-end;
 }
 .recipes {
   background-color: #0a2750;
