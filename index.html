@@ -130,10 +130,11 @@
         </section>
         <section class="reservation" id="reservation">
           <div class="reservation__title">Reservar uma mesa</div>
-          <div class="form">
+          <div class="reservation__form">
             <div class="form__fieldset">
               <label for="nome" class="form__label">Nome *</label>
               <input
+                required
                 id="nome"
                 type="text"
                 class="form__input"
@@ -143,6 +144,7 @@
                 >Número de convidados *</label
               >
               <input
+                required
                 class="form__input"
                 type="number"
                 id="number"
@@ -151,9 +153,15 @@
                 max="8"
               />
               <label for="date" class="form__label">Data e hora *</label>
-              <input id="date" class="form__input" type="datetime-local" />
+              <input
+                required
+                id="date"
+                class="form__input"
+                type="datetime-local"
+              />
               <label for="email" class="form__label">Seu e-mail *</label>
               <input
+                required
                 class="form__input"
                 id="email"
                 type="email"
