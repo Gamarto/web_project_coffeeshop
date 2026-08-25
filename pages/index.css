@@ -189,8 +189,7 @@
 }
 .reservation__title {
   font-family: Inter;
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin: 100px auto 80px;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -202,8 +201,7 @@
   width: 100%;
   margin-bottom: 120px;
 }
-.form__fieldset {
-}
+
 .form__label {
   font-family: Inter;
   font-style: normal;
@@ -213,6 +211,7 @@
   display: flex;
   justify-content: flex-start;
 }
+
 .form__input {
   padding-left: 20px;
   padding-top: 15px;
@@ -262,4 +261,8 @@
 .form__checkbox:enabled {
   background-color: #2f80ed;
   background-image: url("/images/check.svg");
+}
+.form__label_checkbox {
+  justify-content: center;
+  align-items: center;
 }
