@@ -36,10 +36,10 @@
   align-items: center;
   justify-content: center;
 }
-.video-item {
+.recipes__video-item {
   padding-left: 40px;
 }
-.video-caption {
+.recipes__video-caption {
   display: flex;
   color: #ffffff;
   font-family: "Inter";
