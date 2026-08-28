@@ -1,26 +1,15 @@
 .form__label {
-  font-family: Inter;
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   display: flex;
-  justify-content: flex-start;
 }
 
 .form__input {
-  padding-left: 20px;
-  padding-top: 15px;
+  padding: 15px 20px;
   margin-top: 8px;
-  padding-bottom: 15px;
   height: 60px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   outline: none;
   line-height: 30px;
-  max-width: 385px;
   border: 1px solid #838383;
   box-sizing: border-box;
   width: 100%;
@@ -33,15 +22,15 @@
   width: 100%;
   margin-bottom: 32px;
   height: 60px;
-  max-width: 385px;
   background-color: #2f80ed;
   color: #ffffff;
-  font-family: Inter;
-  font-style: normal;
   font-weight: 500;
   border: 0;
-  font-size: 16px;
-  line-height: 20px;
+}
+.form__fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 .form__button:hover {
   opacity: 70%;

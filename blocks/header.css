@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  padding: 30px 80px 40px 80px;
   flex-direction: column;
   min-height: 720px;
   max-height: 800px;
@@ -13,36 +14,29 @@
   box-sizing: border-box;
 }
 .header__title {
-  margin: 183px 0 0 80px;
+  margin-top: 183px;
+  margin-bottom: 0;
   max-width: 709px;
-  font-family:
-    "Inter" Arial,
-    sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
   letter-spacing: -1px;
 }
 .header__span-accent {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Times, serif;
   display: block;
   font-style: italic;
-  font-weight: normal;
   font-size: 58px;
   line-height: 72px;
   color: #2f80ed;
 }
 .header__description {
-  font-family:
-    "Noto Serif" Times,
-    serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Noto Serif", Times, serif;
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
-  margin: 28px 0 0 80px;
+  margin-top: 28px;
+  margin-bottom: 0;
 }
 .header__image {
   position: absolute;
@@ -52,15 +46,9 @@
   top: 124px;
 }
 .header__footer {
-  font-family:
-    "Inter" Arial,
-    sans-serif;
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   color: #838383;
-  margin: auto 80px 40px 80px;
+  margin-top: auto;
   display: flex;
   justify-content: space-between;
 }

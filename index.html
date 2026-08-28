@@ -14,10 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <title>Penny Lane CoffeeShop</title>
@@ -75,11 +73,9 @@
       <main class="content">
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Receitas</h2>
-          <div class="recipes__subtitle">
-            <p>
-              Confira algumas receitas que coletamos para seu lanchinho caseiro:
-            </p>
-          </div>
+          <p class="recipes__subtitle">
+            Confira algumas receitas que coletamos para seu lanchinho caseiro:
+          </p>
           <div class="recipes__videos">
             <div class="recipes__video-item">
               <iframe
@@ -99,8 +95,8 @@
                 allowfullscreen
               ></iframe>
               <div class="recipes__video-caption">
-                <p>Receita Aeropress</p>
-                <p>~5 min</p>
+                <p class="recipes__video-caption-p">Receita Aeropress</p>
+                <p class="recipes__video-caption-p">~5 min</p>
               </div>
             </div>
             <div class="recipes__video-item">
@@ -121,8 +117,10 @@
                 allowfullscreen
               ></iframe>
               <div class="recipes__video-caption">
-                <p>Receita de Prensa Francesa</p>
-                <p>~15min</p>
+                <p class="recipes__video-caption-p">
+                  Receita de Prensa Francesa
+                </p>
+                <p class="recipes__video-caption-p">~15min</p>
               </div>
             </div>
           </div>
@@ -130,7 +128,7 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
           <form class="reservation__form form">
-            <div class="form__fieldset">
+            <fieldset class="form__fieldset">
               <label for="nome" class="form__label">Nome *</label>
               <input
                 required
@@ -166,7 +164,7 @@
                 type="email"
                 placeholder="email@email.com"
               />
-            </div>
+            </fieldset>
             <button class="form__button">Reservar uma mesa</button>
             <label class="form__label form__label_checkbox">
               <input type="checkbox" class="form__checkbox" />
